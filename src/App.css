@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: wheat;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
+.card {
+  background: white;  
+     width: 180px;
+  padding: 50px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(207, 82, 82, 0.1);
+}
+
+.card h2 {
+  color: red;
+}
+
+.card p {
+  color: black;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+
+}
